@@ -80,12 +80,3 @@ body{
 .clear-btn:hover{
     border: 2px solid green;
 }
-
-/* @media screen and (max-width: 400){
-    .calculator{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-} */
