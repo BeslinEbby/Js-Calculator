@@ -13,39 +13,39 @@
           <input type="text" id="print-scn" />
         </div>
         <div class="clear">
-          <button class="clear-btn button">C</button>
+          <button class="clear-btn button" onclick="clickclr()">C</button>
         </div>
         <div class="row">
           <div>
-            <button class="button">7</button>
-            <button class="button">8</button>
-            <button class="button">9</button>
+            <button class="button" onclick="clickbtn(7)">7</button>
+            <button class="button" onclick="clickbtn(8)">8</button>
+            <button class="button" onclick="clickbtn(9)">9</button>
           </div>
-          <button class="button operation">/</button>
+          <button class="button operation" onclick="clickbtn('/')">/</button>
         </div>
         <div class="row">
           <div>
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
+            <button class="button" onclick="clickbtn(4)">4</button>
+            <button class="button" onclick="clickbtn(5)">5</button>
+            <button class="button" onclick="clickbtn(6)">6</button>
           </div>
-          <button class="button operation">X</button>
+          <button class="button operation" onclick="clickbtn('*')">X</button>
         </div>
         <div class="row">
           <div>
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
+            <button class="button" onclick="clickbtn(1)">1</button>
+            <button class="button" onclick="clickbtn(2)">2</button>
+            <button class="button" onclick="clickbtn(3)">3</button>
           </div>
-          <button class="button operation">-</button>
+          <button class="button operation" onclick="clickbtn('-')">-</button>
         </div>
         <div class="row">
           <div>
-            <button class="button">.</button>
-            <button class="button">0</button>
-            <button class="button equal">=</button>
+            <button class="button" onclick="clickbtn('.')">.</button>
+            <button class="button" onclick="clickbtn(0)">0</button>
+            <button class="button equal" onclick="equalclick()">=</button>
           </div>
-          <button class="button operation">+</button>
+          <button class="button operation" onclick="clickbtn('+')">+</button>
         </div>
       </div>
     <script src="script.js"></script>
